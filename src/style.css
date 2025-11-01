@@ -344,3 +344,40 @@ form select {
 .spans-container span:last-child:hover {
   transform: translateY(-4px);
 }
+/* footer */
+
+footer {
+  background-color: #29b24e;
+  border-radius: 20px;
+  font-family: "Comic Neue", cursive;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1640px;
+  width: 100%;
+  padding: 30px;
+}
+footer li a,
+footer p {
+  color: #ffffff;
+}
+footer li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+hr {
+  width: 100%;
+}
+
+/* bottom nav */
+
+.mobile-nav {
+  display: none;
+}
