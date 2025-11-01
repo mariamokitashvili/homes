@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Comic Neue", cursive;
+}
+.container {
+  max-width: 1925px;
+  width: 85%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+h5 {
+  color: #29b24e;
+  font-size: 24px;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* header */
+header {
+  padding: 20px 0;
+  font-size: 14px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  background-color: #f2f2f2;
+  padding: 16px;
+  width: 100%;
+  box-shadow: 0px 5px 25px 0px #c2c2c24f;
+}
+.header-container .logo {
+  width: 48px;
+  height: 48px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #000000e5;
+  transition: 0.3s ease;
+}
+li a:hover {
+  color: #29b24e;
+}
+.header-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #29b24e;
+  color: #ffffff;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.header-btn:hover {
+  background-color: #25a047;
+  transform: scale(1.05);
+}
+.search-btn {
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.search-btn:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.search-btn-container {
+  display: none;
+}
+.search-btn-container:hover {
+  border: 1px solid #29b24e;
+  border-radius: 15px;
+  animation: slideIn 1s forwards ease-out;
+}
